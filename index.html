@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="welcome-message">Welcome!</div>
+            <div class="burger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" onclick="showModal(event)">About</a></li>
+            </ul>
+        </header>
+        <main>
+            <div class="card">
+                <h2>Coming Soon</h2>
+                <p>This website will be available soon. Stay tuned for updates!</p>
+            </div>
+        </main>
+        <footer>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/toph-chadwick/">LinkedIn</a>
+                <a href="https://twitter.com/toph_chadwick">Twitter</a>
+                <a href="https://www.instagram.com/toph_chadwick/">Instagram</a>
+            </div>
+            <p>Copyright © 2024 Toph Chadwick. All rights reserved.</p>
+        </footer>
+        <div class="modal" id="aboutModal">
+            <div class="modal-content">
+                <h2>About</h2>
+                <p>The About section will be available soon. Stay tuned for updates!</p>
+                <button onclick="closeModal()">Close</button>
+            </div>
+        </div>
+        <script src="function.js"></script>
+    </body>
+</html>
