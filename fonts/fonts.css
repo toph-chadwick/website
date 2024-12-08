@@ -1,0 +1,19 @@
+/*
+ * Font: Raleway
+ * Source: The League of Moveable Type
+ * License: SIL Open Font License (OFL) Version 1.1
+ */
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-Italic-VF.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-VF.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+}
