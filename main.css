@@ -1,7 +1,23 @@
+root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --icon-color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #000000;
+        --text-color: #ffffff;
+        --icon-color: #ffffff;
+    }
+}
+
 html, body {
     height: 100%;
     margin: 0;
     font-family: 'Raleway', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 .wrapper {
@@ -17,18 +33,4 @@ main {
 header, main, footer {
     padding: 20px;
     text-align: center;
-}
-
-/* Light mode styles */
-body {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-/* Dark mode styles */
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #000000;
-        color: #ffffff;
-    }
 }

@@ -1,0 +1,19 @@
+/*
+ * Icons: Simple Icons
+ * Source: https://simpleicons.org/
+ * License: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+ */
+
+.icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-color: var(--icon-color);
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.icon-twitter {
+    -webkit-mask: url('twitter.svg') no-repeat center;
+    mask: url('twitter.svg') no-repeat center;
+}
