@@ -11,9 +11,20 @@
     background-color: var(--icon-color);
     -webkit-mask-size: contain;
     mask-size: contain;
+    margin-right: 10px;
 }
 
 .icon-twitter {
     -webkit-mask: url('twitter.svg') no-repeat center;
     mask: url('twitter.svg') no-repeat center;
+}
+
+.icon-linkedin {
+    -webkit-mask: url('linkedin.svg') no-repeat center;
+    mask: url('linkedin.svg') no-repeat center;
+}
+
+footer a {
+    margin-bottom: 10px;
+    display: inline-block;
 }
